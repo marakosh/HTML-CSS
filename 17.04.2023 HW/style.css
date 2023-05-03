@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-image: url("path/to/header-image.jpg");
+  background-size: cover;
+  height: 200px;
+}
+#sidebar {
+  background-color: #f1f1f1;
+  float: left;
+  height: 500px;
+  width: 200px;
+  padding: 20px;
+}
+#content {
+  margin-left: 220px;
+  padding: 20px;
+}
+.box {
+  display: inline-block;
+  background-color: #f1f1f1;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#email-box {
+  background-image: url("path/to/email-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.segment {
+  clear: both;
+  padding: 20px;
+}
+.segment img {
+  float: left;
+  height: 200px;
+  margin-right: 20px;
+}
+.segment h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+.segment p {
+  margin-top: 0;
+}
+#footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
