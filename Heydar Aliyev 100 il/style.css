@@ -4,7 +4,12 @@
     padding: 0;
 }
 
-
+.Ru {
+    background-color: aqua;
+}
+.En{
+    background-color: aqua;
+}
 body {
     font-family: Arial, sans-serif;
     font-size: 1 em;
