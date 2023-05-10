@@ -1,0 +1,56 @@
+.block {
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+    position: relative;
+    overflow: hidden;
+    transition: all 2s;
+  }
+  
+  .block::before,
+  .block::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transition: all 2s;
+  }
+  
+  .block::before {
+    left: 0;
+  }
+  
+  .block::after {
+    right: 0;
+  }
+  
+  .block:hover::before,
+  .block:hover::after {
+    width: 50%;
+  }
+  
+  .block:hover {
+    background-color: transparent;
+  }
+  
+  .block:hover::before {
+    left: 50%;
+  }
+  
+  .block:hover::after {
+    right: 50%;
+  }
+  
+  .block:hover .text {
+    opacity: 1;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 2s;
+  }
