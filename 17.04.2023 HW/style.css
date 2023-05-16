@@ -2,18 +2,89 @@ body {
   margin: 0;
   padding: 0;
 }
-#header {
-  background-image: url("path/to/header-image.jpg");
-  background-size: cover;
-  height: 200px;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #f1f1f1;
+}
+#content {
+  margin-top: 150px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+#highlighted-block {
+  background-color: #eaeaea;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#highlighted-block h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#highlighted-block p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+#email-input {
+  margin-bottom: 10px;
+}
+
+#secondary-block {
+  float: right;
+  margin-left: 20px;
+}
+
+#secondary-block p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+#secondary-block a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+#secondary-block img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
 }
 #sidebar {
-  background-color: #f1f1f1;
+  background-color: #e74c3c;
+  position:fixed;
   float: left;
   height: 500px;
   width: 200px;
   padding: 20px;
 }
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+/* #header {
+  background-image: url("https://phonoteka.org/uploads/posts/2021-04/1619508407_10-phonoteka_org-p-fon-travka-dlya-detei-10.jpg");
+  background-size: cover;
+  height: 100px;
+
+}  */
+
 #content {
   margin-left: 220px;
   padding: 20px;
